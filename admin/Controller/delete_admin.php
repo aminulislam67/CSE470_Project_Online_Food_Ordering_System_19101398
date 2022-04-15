@@ -1,6 +1,6 @@
 <?php 
     //Include constants.php file here
-    include('C:\xampp\htdocs\CSE470_Project_Online_Food_Ordering_System_19101398\configuration\constrants.php');
+    include('C:\xampp2\htdocs\CSE470_Project_Online_Food_Ordering_System_19101398\configuration\constrants.php');
 
     // 1. get the ID of Admin to be deleted
     $id = $_GET['id'];
