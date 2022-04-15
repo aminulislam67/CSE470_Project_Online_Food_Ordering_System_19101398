@@ -1,6 +1,6 @@
 <?php 
     //Include COnstants Page
-    include('C:\xampp2\htdocs\CSE470_Project_Online_Food_Ordering_System_19101398\configuration\constrants.php');
+    include('../../configuration/constrants.php');
 
     //echo "Delete Food Page";
 
