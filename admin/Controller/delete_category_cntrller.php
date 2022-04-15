@@ -1,6 +1,6 @@
 <?php 
     //Include Constants File
-    include('C:\xampp\htdocs\Online_Food_Ordering_System\configuration\constrants.php');
+    include('C:\xampp\htdocs\CSE470_Project_Online_Food_Ordering_System_19101398\configuration\constrants.php');
 
     //echo "Delete Page";
     //Check whether the id and image_name value is set or not
