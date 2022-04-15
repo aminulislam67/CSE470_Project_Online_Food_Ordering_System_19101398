@@ -1,6 +1,6 @@
 <?php 
     //Include COnstants Page
-    include('../../configuration/constrants.php');
+    include('C:\xampp2\htdocs\CSE470_Project_Online_Food_Ordering_System_19101398\configuration\constrants.php');
 
     //echo "Delete Food Page";
 
@@ -47,13 +47,13 @@
         if($res==true)
         {
             //Food Deleted
-            $_SESSION['delete'] = "<div class='success'>Food Deleted Successfully.</div>";\
+            $_SESSION['delete'] = "<div class='success'>Food Deleted Successfully.</div>"
             header('location:'.SITEURL.'admin/View/managing-foods.php');
         }
         else
         {
             //Failed to Delete Food
-            $_SESSION['delete'] = "<div class='error'>Failed to Delete Food.</div>";\
+            $_SESSION['delete'] = "<div class='error'>Failed to Delete Food.</div>"
             header('location:'.SITEURL.'admin/View/managing-foods.php');
         }
 
