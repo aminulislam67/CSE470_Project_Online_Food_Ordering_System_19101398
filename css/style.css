@@ -85,7 +85,14 @@ fieldset{
     padding: 3%;
     border-radius: 5px;
 }
-
+.error {
+    padding: 2%;
+    color: red;
+  }
+  .success {
+    padding: 3%;
+    color: rgb(250, 0, 0);
+  }
 
 /* CSSS for navbar section */
 
@@ -124,7 +131,21 @@ fieldset{
     border: none;
     border-radius: 5px;
 }
-
+.food-search2 {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+  }
+  
+  .food-search2 input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
 
 /* CSS for Categories */
 .categories{
@@ -183,23 +204,22 @@ fieldset{
 }
 
 /* for Order Section */
-.order{
+.order {
     width: 50%;
     margin: 0 auto;
-}
-.input-responsive{
+  }
+  .input-responsive {
     width: 96%;
     padding: 1%;
     margin-bottom: 3%;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
-}
-.order-label{
-    margin-bottom: 1%; 
+  }
+  .order-label {
+    margin-bottom: 1%;
     font-weight: bold;
-}
-
+  }
 
 
 /* CSS for Mobile Size or Smaller Screen */
