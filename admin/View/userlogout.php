@@ -3,5 +3,5 @@
 $_SESSION = [];
 session_unset();
 session_destroy();
-header("Location: userlogin.php");
+header("Location: loginuser.php");
 ?>

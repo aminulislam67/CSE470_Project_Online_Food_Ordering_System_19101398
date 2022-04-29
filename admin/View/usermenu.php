@@ -24,7 +24,7 @@
             <div class="menu text-right">
                 <ul>
                     <li>
-                        <a href="<?php echo SITEURL; ?>admin/View/userlogin.php">Login</a>
+                        <a href="<?php echo SITEURL; ?>admin/View/loginuser.php">Login</a>
                     </li>
                     <li>
                     <a href="<?php echo SITEURL; ?>admin/View/userindex.php">Home</a>
