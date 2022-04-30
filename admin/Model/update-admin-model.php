@@ -23,9 +23,15 @@
 
                     $full_name = $row['full_name'];
                     $username = $row['username'];
+               
+               
                 }
                 else
                 {
+                    
+                    
+                    
+                    
                     //Redirect to Manage Admin PAge
                     header('location:'.SITEURL.'admin/view/manage-admin.php');
                 }
